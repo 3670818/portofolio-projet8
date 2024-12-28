@@ -1,0 +1,41 @@
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.banner-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}   
+
+.nom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    
+
+}
+.active{
+    color:darkgreen;
+}
+.tel{
+    margin-left: auto;
+    display: flex;
+
+}
+// .cliquerhebergement{
+
+// }
+// .activités elementmenu {
+
+// }
+// .cliquerhebergement{
+    
+// }
+
