@@ -8,8 +8,7 @@ function Home() {
         Vous cherchez un développeur web?
     </div>
     <div className="sous-titre">
-        Je suis un développeur web passionné, spécialisé dans la création et l'optimisation de sites internet et d'applications web modernes. Avec une solide maîtrise des technologies front-end et des compétences en back-end
-    </div>
+    Je suis une développeuse web passionnée, spécialisée dans la création et l'optimisation de sites internet. J'ai une solide maîtrise des technologies front-end et des compétences en back-end.    </div>
     </>
   )
 }

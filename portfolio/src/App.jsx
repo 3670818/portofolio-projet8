@@ -1,24 +1,8 @@
-// import React from 'react'
-// import Banner from './layout/banner.jsx' // Import the Banner component
-// function App() {
-//   return (
-//     <div>
-//         <Banner/>
-
-//     </div>
-//   )
-// }
-
-// export default App
-
-
-
-
-
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Competence from "./pages/Competence";
+import Contact from "./pages/Contact";
 import Projets from "./pages/Projets";
 import About from "./pages/About";
 import Banner from "./layout/banner";
@@ -36,6 +20,7 @@ function App() {
           <Route path="/competence" element={<Competence />} />
           <Route path="/projets" element={<Projets />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </main>

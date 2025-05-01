@@ -1,28 +1,13 @@
 import React from "react";
 import "./footer_style.scss";
-
+import { NavLink } from "react-router-dom";
 
 function Banner() {
   return (
 
-<footer>
-  <div className="fin">
-    <div className="fi">
-      <h3> contacter</h3>
-      <p> email: Ibrahimallae1@gmail.com</p>
-      <p />
-      <p>Données et confidentialité</p>
-    </div>
-    <div className="fi">
-      <h3> Réseaux</h3>
-      <p> Charte qualité</p>
-      <p>Proposer votre hôtel</p>
-    </div>
-    <div className="fi">
-      <h3>Assistance</h3>
-      <p> Centre d’aide</p>
-      <p>Nous contacter</p>
-    </div>
+<footer className="footer">
+  <div className="droit">
+   <p>© 2024 Ibrahim Allae</p>
   </div>
 </footer>
 

@@ -7,12 +7,26 @@ footer{
 
 
 }
+.titre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: floralwhite;
+}
+.icon-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
 
 .fin{
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
-    padding-top: 0;
+    
     
     
    /* justify-content:space-between;*/
@@ -22,7 +36,7 @@ footer{
 
 .fi{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 10px;
     
     gap: 10px;
@@ -38,4 +52,20 @@ footer{
 .fi p {
     margin:0;
 
+}
+.droit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
 }
