@@ -4,5 +4,12 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.9.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   }
 }
