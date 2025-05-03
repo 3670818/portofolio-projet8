@@ -11,6 +11,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/portofolio-projet8/', // Remplace par le nom de ton dépôt GitHub
+  base: '/portofolio-projet8/', // ← nom exact du dépôt GitHub
 })
 
