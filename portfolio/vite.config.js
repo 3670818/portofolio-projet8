@@ -8,8 +8,10 @@
 
 // vite.config.js
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  plugins: [react()],
   base: '/portofolio-projet8/', // Assure-toi que c'est bien le chemin sur GitHub Pages
   assetsInclude: ['**/*.PNG', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'], // Ajout des types d'images
   build: {
