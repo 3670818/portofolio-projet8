@@ -12,6 +12,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/portofolio-projet8/', // Assure-toi que c'est bien le chemin sur GitHub Pages
   assetsInclude: ['**/*.PNG', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'], // Ajout des types d'images
+  build: {
+    outDir: 'dist',  // Dossier de sortie pour les fichiers de production
+  },
 });
 
 
