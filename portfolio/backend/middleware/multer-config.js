@@ -7,6 +7,7 @@ const fs = require('fs');
 
 
 
+
 // Configuration de multer pour le stockage des fichiers
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
