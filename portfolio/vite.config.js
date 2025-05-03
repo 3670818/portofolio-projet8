@@ -6,11 +6,12 @@
 //   assetsInclude: ['**/*.PNG', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg'],
 // });
 
-
 // vite.config.js
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/portofolio-projet8/', // ← nom exact du dépôt GitHub
-})
+  base: '/portofolio-projet8/', // Assure-toi que c'est bien le chemin sur GitHub Pages
+  assetsInclude: ['**/*.PNG', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'], // Ajout des types d'images
+});
+
 
