@@ -1,7 +1,6 @@
 {
   "name": "portofolio-projet8",
   "version": "1.0.0",
-  "homepage": "https://3670818.github.io/portofolio-projet8",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
