@@ -6,11 +6,13 @@ import './index.css'; // Assurez-vous d'importer votre fichier CSS si nécessair
 
 const container = document.getElementById("root");
 const root = createRoot(container);
+import { HashRouter } from "react-router-dom"; // Remplace BrowserRouter par HashRouter
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
+
